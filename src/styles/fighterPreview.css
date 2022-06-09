@@ -1,0 +1,29 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+  position: relative;
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+  position: relative;
+}
+
+.fighter-preview___info-block {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    padding-left: 25px;
+    position: absolute;
+    background-color: rgb(255 223 167 / 60%);
+    border: 5px solid rgb(202 150 80 / 60%);
+    bottom: 0;
+    text-align: center;
+    list-style: none;
+}
